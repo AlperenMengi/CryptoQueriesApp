@@ -5,11 +5,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.alperenmengi.cryptoqueriesapp.databinding.FragmentMarketBinding
+import com.alperenmengi.cryptoqueriesapp.databinding.FragmentTokendetailsBinding
 
-class MarketFragment : Fragment() {
+class TokenDetailsFragment : Fragment() {
 
-    private var _binding: FragmentMarketBinding? = null
+    private var _binding: FragmentTokendetailsBinding? = null
     private val binding get() = _binding!!
 
     override fun onCreateView(
@@ -17,7 +17,7 @@ class MarketFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        _binding = FragmentMarketBinding.inflate(inflater, container, false)
+        _binding = FragmentTokendetailsBinding.inflate(inflater, container, false)
         return binding.root
     }
 

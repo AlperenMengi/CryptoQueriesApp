@@ -6,8 +6,8 @@
         android:title="Home" />
     
     <item
-        android:id="@+id/navigation_market"
-        android:title="Market" />
+        android:id="@+id/navigation_tokenDetails"
+        android:title="Token Details" />
         
     <item
         android:id="@+id/navigation_portfolio"

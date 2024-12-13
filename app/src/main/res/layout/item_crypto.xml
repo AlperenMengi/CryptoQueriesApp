@@ -25,7 +25,7 @@
             android:id="@+id/priceText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="0.9"
+            android:layout_weight="1"
             android:text="Price"
             android:textColor="#FFFFFF"
             android:textSize="12sp" />
@@ -34,7 +34,7 @@
             android:id="@+id/changeText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="0.7"
+            android:layout_weight="1"
             android:text="24h %"
             android:textColor="#FFFFFF"
             android:textSize="12sp" />
@@ -43,7 +43,7 @@
             android:id="@+id/mcapText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="0.7"
+            android:layout_weight="0.8"
             android:text="MCap"
             android:textColor="#FFFFFF"
             android:textSize="12sp" />
@@ -52,7 +52,7 @@
             android:id="@+id/fdvRateText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="1.2"
             android:text="2.1"
             android:textAlignment="center"
             android:textColor="#FFFFFF"

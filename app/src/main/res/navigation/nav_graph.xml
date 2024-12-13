@@ -10,15 +10,15 @@
         android:label="Home" >
         <action
             android:id="@+id/action_navigation_home_to_navigation_market"
-            app:destination="@id/navigation_market" />
+            app:destination="@id/navigation_tokenDetails" />
         <action
             android:id="@+id/action_navigation_home_to_navigation_portfolio"
             app:destination="@id/navigation_portfolio" />
     </fragment>
 
     <fragment
-        android:id="@+id/navigation_market"
-        android:name="com.alperenmengi.cryptoqueriesapp.ui.MarketFragment"
+        android:id="@+id/navigation_tokenDetails"
+        android:name="com.alperenmengi.cryptoqueriesapp.ui.TokenDetailsFragment"
         android:label="Market" >
         <action
             android:id="@+id/action_navigation_market_to_navigation_home"
@@ -34,7 +34,7 @@
         android:label="Portfolio" >
         <action
             android:id="@+id/action_navigation_portfolio_to_navigation_market"
-            app:destination="@id/navigation_market" />
+            app:destination="@id/navigation_tokenDetails" />
         <action
             android:id="@+id/action_navigation_portfolio_to_navigation_home"
             app:destination="@id/navigation_home" />

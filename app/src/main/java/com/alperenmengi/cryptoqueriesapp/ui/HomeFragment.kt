@@ -52,7 +52,10 @@ class HomeFragment : Fragment() {
         cryptoAdapter = CryptoAdapter()
         binding.cryptoRecyclerView.apply {
             adapter = cryptoAdapter
-            layoutManager = LinearLayoutManager(context)
+            layoutManager = LinearLayoutManager(context).apply {
+                isSmoothScrollbarEnabled = true
+            }
+            isNestedScrollingEnabled = false
         }
     }
 
@@ -188,7 +191,7 @@ class HomeFragment : Fragment() {
         val limitValues = arrayOf("100", "300", "500", "All")
         val limitAdapter = ArrayAdapter(requireContext(), android.R.layout.simple_spinner_item, limitValues)
         limitAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
-        val limitSpinner = binding.timeframeSpinner
+        val limitSpinner = binding.limitSpinner
         val limitArrow = binding.limitSpinnerArrow
         limitSpinner.adapter = limitAdapter
 
